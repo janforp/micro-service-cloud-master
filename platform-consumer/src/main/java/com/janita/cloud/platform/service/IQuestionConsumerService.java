@@ -10,6 +10,8 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 
 /**
  * Created by Janita on 2017-03-29 15:11
+ *
+ * fallback = QuestionConsumerServiceFallback.class：指定此接口失败的回调函数
  */
 @FeignClient(name = "base-server",configuration = FeignConfiguration.class,fallback = QuestionConsumerServiceFallback.class)
 public interface IQuestionConsumerService {
