@@ -1,6 +1,6 @@
-package com.janita.cloud.base.one.service;
+package com.janita.base.two.service;
 
-import com.janita.cloud.base.one.dao.QuestionDao;
+import com.janita.base.two.dao.QuestionDao;
 import com.janita.cloud.common.entity.Question;
 import com.janita.cloud.service.service.IQuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
