@@ -14,7 +14,6 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableEurekaClient
 @EnableCircuitBreaker
 public class PlatformApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(PlatformApplication.class, args);
     }
