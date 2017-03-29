@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/base-data-provider-one/base-data-provider-one.iml" filepath="$PROJECT_DIR$/base-data-provider-one/base-data-provider-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-data-provider-two/base-data-provider-two.iml" filepath="$PROJECT_DIR$/base-data-provider-two/base-data-provider-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-eureka-discovery/micro-eureka-discovery.iml" filepath="$PROJECT_DIR$/micro-eureka-discovery/micro-eureka-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-service-cloud-master.iml" filepath="$PROJECT_DIR$/micro-service-cloud-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro-zuul-gateway/micro-zuul-gateway.iml" filepath="$PROJECT_DIR$/micro-zuul-gateway/micro-zuul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-consumer/platform-consumer.iml" filepath="$PROJECT_DIR$/platform-consumer/platform-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-common/service-common.iml" filepath="$PROJECT_DIR$/service-common/service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-interface/service-interface.iml" filepath="$PROJECT_DIR$/service-interface/service-interface.iml" />
+    </modules>
+  </component>
+</project>

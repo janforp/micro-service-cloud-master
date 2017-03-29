@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base-data-provider-one" />
+        <module name="base-data-provider-two" />
+        <module name="micro-eureka-discovery" />
+        <module name="micro-zuul-gateway" />
+        <module name="platform-consumer" />
+        <module name="service-common" />
+        <module name="service-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-data-provider-one" target="1.8" />
+      <module name="base-data-provider-two" target="1.8" />
+      <module name="micro-eureka-discovery" target="1.8" />
+      <module name="micro-service-cloud-master" target="1.8" />
+      <module name="micro-zuul-gateway" target="1.8" />
+      <module name="platform-consumer" target="1.8" />
+      <module name="service-common" target="1.8" />
+      <module name="service-interface" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
