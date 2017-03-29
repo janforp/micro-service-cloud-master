@@ -14,6 +14,12 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 @FeignClient(name = "base-server",configuration = FeignConfiguration.class)
 public interface IUserConsumerService {
 
+    /**
+     * 因为在zuul上注册了两个相同名称的服务：base-server
+     * 此处会使用负载均衡的策略调用这两个服务
+     * @param id
+     * @return
+     */
     @RequestLine("GET /user/{id}")
     @LoadBalanced
     User getUser(@Param("id") Long id);

@@ -18,7 +18,7 @@ public class PlatformController {
     @Autowired
     private IUserConsumerService userConsumerService;
 
-    @HystrixCommand(fallbackMethod = "getUserFallback",commandProperties =@HystrixProperty(name="execution.isolation.strategy", value="SEMAPHORE") )
+    @HystrixCommand(fallbackMethod="getUserFallback", commandProperties=@HystrixProperty(name="execution.isolation.strategy", value="SEMAPHORE"))
     @GetMapping("/user/{id}")
     public User getUser(@PathVariable("id") Long userId){
         return userConsumerService.getUser(userId);
@@ -30,6 +30,7 @@ public class PlatformController {
         user.setUserId(userId);
         user.setAge(0);
         user.setName("User服务没有启动，这是回调的User");
+        System.out.println("*******"+"调用了失败回调提供的User");
         return user;
     }
 }
